@@ -1,0 +1,39 @@
+.price-ico {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -15px;
+
+	&__column {
+		padding: 35px;
+		margin: 0 15px;
+		flex: 1 0;
+		border-radius: 10px;
+	    box-shadow: 0px 0px 30px rgba(0,0,0,0.07), 0px 0px 30px rgba(0,0,0,0.07);
+	    background: url('img/bg-full.jpg') no-repeat;
+	    background-size: cover;
+	}
+
+	&__list {
+		margin: 0;
+		padding-left: 15px;
+		min-height: 268px;
+
+		li {
+			margin-bottom: 15px;
+		}
+	}
+
+	&__title {
+		.title();
+
+		&--center {
+			text-align: center;
+		}
+	}
+
+	&__cost {
+		display: block;
+		margin-top: 10px;
+		text-align: center;
+	}
+}

@@ -1,0 +1,36 @@
+.news {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -15px;
+
+	&__column {
+		flex: 1 0 25%;
+		margin: 0 15px;
+		max-width: 220px;
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		&:last-child {
+			align-self: center;
+		}
+	}
+
+	&__title {
+		font-size: 14px;
+		font-weight: 800;
+		text-transform: uppercase;
+		// text-align: center;
+		margin: 10px 0;
+	}
+
+	p {
+		font-size: 12px;
+		font-weight: 300;
+		line-height: 18px;
+		min-height: 130px;
+		overflow: hidden;
+	}
+}
