@@ -1,0 +1,26 @@
+.complect {
+
+	&__title {
+		.title();
+
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: -30px;
+			right: 0;
+			width: 5px;
+			height: 40px;
+			background: linear-gradient(to bottom,#8CF7D6 ,#12C4D0 100%);
+		}
+
+		&::before {
+			content: "01";
+			position: absolute;
+			top: -60px;
+			right: 0;
+			font-size: 21px;
+			font-weight: 800;
+		}
+	}
+}
